@@ -37,5 +37,4 @@ Write a description of the story that your animation showcases. Give additional 
 
 The filter that I created myself is makeDark(). This filter alters the RGB values to make the image appear more grim and dar. The red value is * 0.6, while the green is * 0.4, and lastly the blue is * 0.5. This darkens the colors, and pronouces the red while weaking the green.
 
-Another filter that I used was 
-Choose at least 2 filters used in your animation to explain how the pixels are modified. If you created a new image filter that was not one of the ones from this unit, make sure to explain and analyze that filter(s) before choosing ones that came from this unit.
+Another filter that I used was makeNegative(). This filter reverses each of the RGB values to inverse the image. This is done by setting the color values to 255 - thier original value, so a blue value of 250 would turn to 5.
