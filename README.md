@@ -31,7 +31,10 @@ Record a short video of your story to display here on your README. You can do th
 
 ## Story Description
 
-Write a description of the story that your animation showcases. Give additional context for your story here in the case your animation is more abstract and only has images and little text. Lastly, include what data in your project is represented in 2D arrays and how those directly relate to the story your animation showcases.
+My animation covers a science fiction fantasy uniniverse, called Warhammer 40,000. The display is divided into two main sections, which are animated by thier respective classes. The first section, FactionScene begins by displaying the title screen. It then proceeds to display several of the different warhammer factions, while stating thier loyatly. For each loyatly, Imperim, Chaos, and Alien, there are four factions listed. After each image is displayed, a filter is applied corresponding to its loyatly, for example Imperium factions are filtered with makeDark(). After these images, the animation moves onto the next class: Books_ModelsScene. This class displays two books and two models in sequence that I personally have of warhammer. When they are dispalyed, a filter is applied depending on whether the image is a book or a model. Then the program concludes with an exit slide.
+
+The data that is represented in the 2D arrays is the image links and for the first class the captions. The images arrays are used to draw all of the images, as they are iterated through during the drawScene method. While the captions array is used to store the second part of the faction name, and is used in getFaction to find what text to display.
+
 
 ## Image Filter Analysis
 
