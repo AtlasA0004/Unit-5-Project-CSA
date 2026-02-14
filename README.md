@@ -27,7 +27,7 @@ Record a short video of your story to display here on your README. You can do th
 - Upload the thumbnail image to your repo.
 - Use the following markdown
 
-[![Unit 5 Video](Unit5Thumbnail.png)](link)
+[![Unit 5 Video](Unit5Thumbnail.png)]([link](https://youtu.be/W2B-DZyCrs8?si=Y7iRIhDnJA3136kl))
 
 ## Story Description
 
